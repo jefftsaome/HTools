@@ -1,0 +1,12 @@
+[project]
+name = "htools"
+version = "0.1.0"
+description = "Harvester shared contract library — interfaces, types, testing fakes"
+requires-python = ">=3.13"
+dependencies = [
+    "cryptography>=48.0.0",
+    "loguru>=0.7.3",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]

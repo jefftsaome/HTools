@@ -1,0 +1,6 @@
+htools
+*.pyc
+__pycache__/
+.venv/
+build/
+*.egg-info/
